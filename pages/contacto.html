@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Envios Ahora</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../img/envios_ahora_logo.png" alt="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a>
+                </li>
+                <li><a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Envios Ahora</h1>
+        <p>Para consultas y opiniones. Su palabra importa.</p>
+        <div class="contenedor_formulario">
+                <form
+                action="https://formspree.io/f/mbdpkyaw"
+                method="POST" class="formulario"
+                >
+                <div class="nombre_div">
+                    <label class="nombre" for="nombre">Su nombre</label>
+                    <input class="nombre_texto" id="nombre" name="nombre" type="text" required \>
+                </div>
+                <div class="email_div">
+                <label>
+                Correo electronico:
+                <input type="email" name="email" id="email" required>
+                </label>
+                </div>
+                <div class="textarea_div">
+                <label>
+                Su mensaje:
+                <textarea name="mensaje" id="mensaje"></textarea>
+                </label>
+                </div>
+                <div class="boton_div">
+                <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident sapiente veniam perspiciatis officiis accusamus labore repellendus vitae aperiam atque maxime sit nulla, possimus nostrum repudiandae. Distinctio necessitatibus aut alias quia?</p>
+    </footer>
+</body>
+</html>
