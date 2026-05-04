@@ -1,0 +1,1 @@
+Esta página web representa un servicio para que los usuarios puedan comprar por internet alimentos y demás artículos que necesiten y que les sea llevados a su domicilio.
